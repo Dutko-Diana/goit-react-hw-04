@@ -1,0 +1,15 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.galleryItem {
+  width: calc((100% - 80px) / 5);
+  flex-shrink: 0;
+  border: 5px solid rosybrown;
+  border-radius: 20px;
+  background-color: rosybrown;
+}
