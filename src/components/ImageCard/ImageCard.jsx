@@ -1,8 +1,16 @@
 import s from "./ImageCard.module.css";
 
-export default function ImageCard({ src, alt, likes, avatar, authorName }) {
+export default function ImageCard({
+  src,
+  alt,
+  likes,
+  avatar,
+  authorName,
+  openModal,
+  modalSrc,
+}) {
   return (
-    <div>
+    <div onClick={() => openModal(modalSrc, alt)}>
       <div className={s.thumb}>
         <img src={src} alt={alt} className={s.image} />
       </div>

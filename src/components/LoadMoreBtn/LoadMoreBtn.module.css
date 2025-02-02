@@ -1,0 +1,13 @@
+.button {
+  padding: 10px;
+  border: 5px solid rosybrown;
+  border-radius: 20px;
+  outline: none;
+  background-color: transparent;
+  transition: background-color 250ms ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rosybrown;
+}
